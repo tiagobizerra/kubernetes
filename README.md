@@ -23,6 +23,10 @@ kubectl describe namespaces
 ```
 kubectl -n $NAMESPACE get pods
 ```
+#### get wide (shows where each pod is)
+```
+kubectl -n rtf get pod -o wide
+```
 #### describe
 ```
 kubectl -n $NAMESPACE describe pod $POD
